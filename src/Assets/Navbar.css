@@ -1,0 +1,15 @@
+.navbar{
+    background-color: rgba(10, 43, 69, 1);
+    height: 40px;
+    padding-top: 10px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-weight: 400;
+
+}
+.navbar a:hover{
+    color: rgba(80, 220, 248, 1);
+}

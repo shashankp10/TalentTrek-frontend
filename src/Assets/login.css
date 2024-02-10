@@ -1,0 +1,65 @@
+
+.partition{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.photo{
+    background-color: rgba(80, 220, 248, 1);
+    height: 100vh;
+    width: 400px;
+}
+.zigzag {
+    position: absolute;
+    left: 0;
+    width: 40%;
+    height: 100%;
+}
+.profile {
+    position: relative; 
+    height: 300px;
+    left: 10%;
+    top: 30%;
+}
+.field form{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 15px;
+}
+
+.field h1{
+    font-size: 4em;
+    font-weight: 200;
+    color: rgba(80, 220, 248, 1);
+    font-family:Impact;
+    padding: 0;
+    margin: 0;
+}
+.field h5{
+    margin: 0;
+    padding: 0;
+}
+.field p{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.field input{
+    height: 40px;
+    width: 60%;
+    border: 2px solid rgba(56, 144, 214, 1);
+    border-radius: 5px;
+}
+.field button{
+    width: 40%;
+    height: 40px;
+    font-size: medium;
+    font-weight: 800;
+    border: none;
+    font-family: Impact;
+    font-size: 1.3em;
+    background-color: goldenrod;
+    color: white;
+}
